@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Salih Tuzen -Portfolio</title>
+    <link rel="icon" type="image/png" href="favicon2.png" sizes="32x32">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <header class="page-header">
+        <a href="index.html"><img src="logo.svg" alt="mainPage"></a>
+        <nav class="main-navigation page-header__item">
+            <ul role="menubar" class="navigation-list">
+                <li role="presentation">
+                    <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
+                </li>
+                <li role="presentation">
+                    <a href="about.html" role="menuitem" class="navigation-list__item">About Me</a>
+                </li>
+                <li role="presentation">
+                    <a href="work.html" role="menuitem"
+                        class="navigation-list__item navigation-list__item--active">Work</a>
+                </li>
+                <li role="presentation">
+                    <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h1>Work</h1>
+        <div class="grid">
+            <div class="grid__item">
+                <h2>NLP on George Floyd Tweets</h2>
+                <p>
+                    "My argument was not that what happens on that social media website is broadly representative of popular opinion but that what happens on Twitter is a good barometer of enthusiasm around movement-building and fandoms."-Charlie Warzel-New York Times
+In this project, I extracted George Floyd related tweets using API and implemented NLP models to discover trends, popular views and possibly explore public opinion.
+                </p>
+                <a href="https://github.com/stuzen/NLP-on-George-Floyd-Tweets/blob/59ddefeaf88ea26db56ee900e363a18393c1d67f/Twitter_data3.ipynb"> <img src="GeorgeFloyd.png" alt="Project Image"
+                    style="width:200px;height:100px;"></a>
+               
+
+            </div>
+            <div class="grid__item">
+                <h2>Predicting Fraudulent Transactions</h2>
+                <p>
+                    This is a predictive modeling project. I built data pipelines to automate pre-processing and prediction of fraudulent transactions with high sensitivity& specificity scores by using imbalanced data methods such as SMOTE, RUS and Weights Adjustment.
+                </p>
+                <a href="https://github.com/stuzen/Predicting-Fraudulent-Transactions/blob/8d6e8a0729d7c596b74732e9cefc96d0e7b0f164/Predicting%20Fraudulent%20Transactions-Presentation.pdf">
+                <img src="fraud.png" style="width:210px;height:150px;"></a>
+
+            </div>
+            <div class="grid__item">
+                <h2>Scraping Data from Government Property Websites</h2>
+                <p>
+                    In my job, I was tasked with collecting information about hundreds of properties from Government Appraiser Sites. The key data points were owner name, date of sale, sale price and grantee company. It was a great experience using selenium to interact with websites. Click for more!
+                </p>
+                <a href="https://github.com/stuzen/Web-Scraping.git">
+                <img src="Web scraping.png" style="width:210px;height:150px;"></a>
+
+            </div>
+            <div class="grid__item">
+                <h2> Monty Hall Puzzle</h2>
+                <p>
+                    The Monty Hall problem is a brain teaser, in the form of a probability puzzle, loosely based on the American television game show “Let's Make a Deal” and named after its original host, Monty Hall.  In my code, I will simulate the Monty Hall problem and prove why the answer to the deceptively easy looking problem is not what most people think what it is.
+                </p>
+                <a href="https://github.com/stuzen/Simulating_MontyHall_Problem/blob/d1765585ca4f14b91f99197e8856990ac734153f/MontyHall.ipynb"> 
+                <img src="montyhall.png" style="width:200px;height:100px;"></a>
+            </div>
+            <div class="grid__item">
+                <h2>Chicago Crime Rate Time Series Analysis</h2>
+                <p>
+                    This is an extremely comprehensive team project for which we used multiple time series models such as SARIMA, VAR, Linear Regression, SVARMA to predict assault rate, theft rate and unemployment rate in Chicago in 2017.
+                </p>
+                <a href="https://github.com/stuzen/Chicago-Crime-Rate--Time-Series-Analysis/blob/a1451b70070b07f1ed8ec52e38cb07eacae05097/Chicago%20Crime%20Rate-Time%20Series%20Analysis.pdf"> <img src="timeseries.png" style="width:200px;height:110px;"></a>
+            </div>
+            <div class="grid__item">
+                <h2>More projects to come!</h2>
+                <p>
+                    I enjoy working on new projects every day as either part of my job or just as a hobby. These projects can be web scraping, 
+                    NLP, machine learning, data cleaning, data visualization, or just creating my own website. I will keep posting projects when 
+                    data I use is not confidential. Thanks for checking out!
+                </p>
+
+            </div>
+        </div>
+    </section>
+    <footer class="page-footer">
+        <p>Find me on</p>
+        <div class="social-media">
+            <a href="https://github.com/stuzen"><img src="img/github_icon.svg" alt="Github"></a>
+            <a href="https://www.linkedin.com/in/salihtuzen/"><img src="img/linkedin_icon.svg" alt="LinkedIn"></a>
+        </div>
+    </footer>
+    <script src="js/tota11y.min.js"></script>
+</body>
+
+</html>
